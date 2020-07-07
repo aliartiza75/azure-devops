@@ -46,3 +46,10 @@ wiki_client.create_or_update_page(parameters={"content": "ENTER_CONTENT HERE", "
                                   wiki_identifier="WIKI_NAME",
                                   path="/page1",
                                   version=None)
+
+# To get wiki page
+wiki_client.get_page(project="ProjectId", wiki_identifier="")
+
+
+# To delete wiki page
+wiki_client.delete_page(project="ProjectId", wiki_identifier="")
